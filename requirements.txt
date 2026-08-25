@@ -1,0 +1,44 @@
+# Runtime deps for DikeLoader on Windows without Visual C++ Build Tools.
+# pymobiledevice3's optional native `lzfse` wheel is skipped; app install does not need it.
+#
+#   py -3.13 -m venv .venv
+#   .\.venv\Scripts\Activate.ps1
+#   pip install -e . --no-deps
+#   pip install -r requirements.txt
+#   pip install pymobiledevice3 --no-deps
+#   python -m dikeloader fetch-zsign
+
+customtkinter>=5.2.0
+cryptography>=42.0.0
+srp>=1.0.20
+httpx>=0.27
+keyring>=25.0
+Pillow>=10.0
+anisette>=1.2.4
+certifi>=2024.0
+truststore>=0.10.0
+paramiko>=3.4.0
+construct>=2.9.29
+construct-typing>=0.8.0
+bpylist2>=4.0.1
+parameter_decorators
+packaging
+pyusb>=1.2.1
+requests
+hexdump
+coloredlogs
+ifaddr
+opack2
+defusedxml
+psutil
+pywin32
+tqdm
+qh3>=1.0.0,<2
+srptools
+hyperframe
+plumbum
+prompt_toolkit
+pytun-pmd3>=3.0.3
+developer_disk_image>=0.3.0
+pygments
+asn1

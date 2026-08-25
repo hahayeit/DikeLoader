@@ -1,0 +1,17 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+.idea/
+.vscode/
+*.p12
+*.mobileprovision
+vendor/zsign.exe
+vendor/*.dll
+vendor/*.zip
+.DS_Store
